@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: F1-black;
+    src: url('../assets/fonts/Formula1-Black.ttf');
+}
+@font-face {
+    font-family: F1-Bold;
+    src: url('../assets/fonts/Formula1-Bold.ttf');
+}
+@font-face {
+    font-family: F1-regular;
+    src: url('../assets/fonts/Formula1-Regular.ttf');
+}
+@font-face {
+    font-family: F1-Wide;
+    src: url('../assets/fonts/Formula1-Wide.ttf');
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-family: F1-Wide;
+    font-weight: 100;
+    font-size: 1.8rem;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    /* gradiante del proyecto */
+    /* background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); */
+    /* gradiante personal */
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    
+
+}
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+    
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+}
+.f1-standing-container {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.top-podium {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background-color: blueviolet;
+}
+.driver-fl-bg--white {
+    height: 150px;
+    width: 80%;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border-radius: 8px 8px 0 0;
+    align-self: center;
+}
+.driver-fl-bg--white .icon-slash {
+    display: flex;
+    left: 200;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-image: url('../assets/imgs/ferrari-logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
