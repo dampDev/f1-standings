@@ -56,7 +56,26 @@ header img {
     width: 100%;
     height: auto;
 }
+.f1-standing-container{
+    
+    width: 100%;
+    height: 150px;
+    background-image: url('../assets/imgs/bg@2x.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.f1-standing-title {
+    margin-top: 50px;
+    
+    font-family: F1-Wide;
+      
+    color: aliceblue;
+}
 .f1-standing-container {
+    
     width: 100%;
     height: auto;
     padding-top: 10px;
@@ -65,32 +84,39 @@ header img {
 }
 
 .top-podium {
+    padding-top: 150px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: 234px;
     text-align: center;
-    background-color: blueviolet;
+    
 }
 .driver-fl-bg--white {
-    height: 150px;
+    height: 110px;
     width: 80%;
-    background-color: aliceblue;
     margin: 0 auto;
+    max-width: 250px;
+    background-color: aliceblue;
+    margin-bottom: 0px;
     border-radius: 8px 8px 0 0;
     align-self: center;
-}
-.driver-fl-bg--white .icon-slash {
+    
     display: flex;
-    left: 200;
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
-    background-image: url('../assets/imgs/ferrari-logo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    justify-content: space-between;
 }
+
+.driver-fl-bg--white img {
+    
+}
+
+ .driver-top-podium {
+    position: absolute;
+    height: 200px;
+    top: 50px;
+    right: 100px;
+    
+}  
