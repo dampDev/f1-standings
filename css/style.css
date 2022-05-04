@@ -57,3 +57,91 @@ header img {
     height: auto;
     min-width: 320px;
 }
+
+.f1-standing-container {
+
+    width: 100%;
+    height: auto;
+    background-image: url('../assets/imgs/bg@2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.f1-standing-title {
+    padding-top: 30px;
+    font-family: F1-Wide;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+}
+
+.top-podium {
+    width: 100%;
+    position: relative;
+    height: auto;
+    
+}
+
+.driver-fl-bg--white {
+    width: 90%;
+    min-width: 288px;
+    max-width: 385px;
+    min-height: 150px;
+    margin: 15px auto;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 16%);
+    
+    
+}
+/* .driver-fl-bg--white .left{
+    display: flex;
+}
+
+.driver-fl-bg--white .right{
+    display: flex;
+} */
+
+.driver-img-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.driver-fl-bg--white .left{
+   background-color: blueviolet;
+}
+
+.driver-fl-bg--white .left img {
+    width: 50px;
+}
+
+.driver-fl-bg--white .right {
+   position: relative;
+   
+}
+
+.driver-first  {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top:-15;
+    background-image: url('../assets/imgs/leclerc.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    border-radius: 8px;
+    
+    
+    
+}
+
+
