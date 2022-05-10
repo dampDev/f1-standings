@@ -21,6 +21,7 @@
 }
 html{
     font-size: 62.5%;
+    font-family: F1-regular;
 }
 h1{
     font-family: F1-Wide;
@@ -151,11 +152,28 @@ header img {
     
 }
 
-.f1-standind--grid-container div {
+.f1-standind--table-driver{
+    margin: 0 auto;
     width: 100%;
     height: auto;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 8px;
-    justify-content: space-between;
+    font-family: F1-black;
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-columns: 10px 100px 120px 10px;
+    grid-template-rows: 40px;
+    gap: 5px;
+    place-content: center;
+    align-items: center;
+    
+}
+
+.f1-standind--pts {
+
+    background-color: #ededed;
+    font-size: 1.2rem;
+    font-family: F1-regular;
+    border-radius: 8px;
     
 }
