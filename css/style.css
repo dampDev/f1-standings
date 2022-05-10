@@ -19,6 +19,8 @@
     font-family: F1-Wide;
     src: url('../assets/fonts/Formula1-Wide.ttf');
 }
+
+
 html{
     font-size: 62.5%;
     font-family: F1-regular;
@@ -93,7 +95,7 @@ header img {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 234px;
+    height: auto;
     text-align: center;
     
 }
@@ -134,7 +136,7 @@ header img {
     max-width: 385px;
     height: auto;
     margin: 0 auto;
-    background-color: #2AF598;
+    
 }
 
 .f1-standind--grid-container {
@@ -142,9 +144,9 @@ header img {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 280px;
-    grid-template-rows: repeat(3, 50px);
-    gap: 5px;
+    grid-template-columns: 90%;
+    grid-auto-rows: 40px;
+    gap: 2px;
     justify-content: center;
     
     
@@ -153,7 +155,7 @@ header img {
 }
 
 .f1-standind--table-driver{
-    margin: 0 auto;
+    /* margin: 0 auto;
     width: 100%;
     height: auto;
     background-color: white;
@@ -166,14 +168,92 @@ header img {
     gap: 5px;
     place-content: center;
     align-items: center;
+     */
     
+    align-items: center;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 2px;
+    overflow: hidden;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+
+.f1-standind--rank{
+    position: relative;
+    top: 1px;
+    text-align: center;
+    width: 20px;
+    font-size: 1.4rem;
+    font-family: F1-bold;
+}
+
+.f1-standind--team-color {
+    
+    width: 4px;
+    height: 14px;
+    margin: 0 10px;
+}
+.team-color-ferrari {
+    background-color: red;
+}
+
+.team-color-redbul {
+    background-color: blue;
+}
+
+.f1standind--surname {
+    font-family: F1-bold;
+    top: 1px;
+    text-align: left;
+    width: 110px;
+    justify-self:center;
+    font-size: 1.4rem;
 }
 
 .f1-standind--pts {
-
-    background-color: #ededed;
-    font-size: 1.2rem;
-    font-family: F1-regular;
-    border-radius: 8px;
     
+    font-size: 1rem;
+    background-color: #dfd7d7;
+    width: 70px;
+    height: 20px;
+    margin: 0 auto;
+    padding-top: 4px;
+    border-radius: 10px;
+    margin-right: 0px;
+
 }
+
+.f1-stantind--icon{
+    width: 35px;
+    font-size: 1.8rem;
+    color: red;
+}
+
+.f1-standind--botton-full-standings {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    border: red;
+}
+
+.f1-standind--botton-full-standings:hover {
+
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: white;    
+    border-radius: 8px;
+    color: black;
+    border: 2px solid red;
+    
+
+}
+
