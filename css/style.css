@@ -100,7 +100,7 @@ header img {
     height: 110px;
     width: 80%;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 385px;
     background-color: aliceblue;
     margin-bottom: 0px;
     border-radius: 8px 8px 0 0;
@@ -127,34 +127,35 @@ header img {
  right: 40px;
    
 }
-.f1-standind-table {
-    height: 110px;
-    width: 80%;
+.main-f1-standind--table-container {
+    width: 90%;
+    min-width: 320px;
+    max-width: 385px;
+    height: auto;
     margin: 0 auto;
-    max-width: 400px;
-    background-color: brown;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 8px;
-    display: inline-flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    text-decoration: none;
-    
+    background-color: #2AF598;
 }
-.f1-podium--link {
-    display: flex;
-    justify-content: center;
-    height: 30px;
-    text-align: center;
-    
-    
-}
-.f1-pudium-rank{
-    width: 20px;
-    font-family: F1-Bold;
-    font-size: 14px;
-    line-height: 17px;
-   
 
+.f1-standind--grid-container {
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 280px;
+    grid-template-rows: repeat(3, 50px);
+    gap: 5px;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.f1-standind--grid-container div {
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    justify-content: space-between;
+    
 }
