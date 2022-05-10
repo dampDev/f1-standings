@@ -73,9 +73,8 @@ header img {
 }
 .f1-standing-title {
     margin-top: 50px;
-    
-    font-family: F1-Wide;
-      
+    font-size: 2rem;    
+    font-family: F1-Wide;      
     color: aliceblue;
 }
 .f1-standing-container {
@@ -133,7 +132,7 @@ header img {
 .main-f1-standind--table-container {
     width: 90%;
     min-width: 320px;
-    max-width: 385px;
+    max-width: 95%;
     height: auto;
     margin: 0 auto;
     
@@ -144,8 +143,8 @@ header img {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 90%;
-    grid-auto-rows: 40px;
+    grid-template-columns: 95%;
+    grid-auto-rows: 50px;
     gap: 2px;
     justify-content: center;
     
@@ -257,3 +256,19 @@ header img {
 
 }
 
+.main-news-container {
+    width: 100%;
+    height: auto;
+}
+
+.new-contaier {
+    width: 95%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+}
+
+.new-contaier img {
+    width: 90%;
+}
