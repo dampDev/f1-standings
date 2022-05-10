@@ -28,7 +28,7 @@ html{
 h1{
     font-family: F1-Wide;
     font-weight: 100;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 }
 header{
     position: relative;
@@ -71,7 +71,7 @@ header img {
     
 
 }
-.f1-standing-title {
+.f1-standing-title h2 {
     margin-top: 50px;
     font-size: 2rem;    
     font-family: F1-Wide;      
@@ -87,7 +87,7 @@ header img {
 }
 
 .top-podium {
-    padding-top: 150px;
+    padding-top: 30px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -98,10 +98,21 @@ header img {
     text-align: center;
     
 }
+
+.top-podium-slider{
+    display: flex;
+    height: auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x proximity;
+    justify-content: center;
+   
+}
 .driver-fl-bg--white {
+    scroll-snap-align: center;
     height: 110px;
     width: 80%;
-    margin: 0 auto;
+    margin: 80px 5px 0 ;
     max-width: 385px;
     background-color: aliceblue;
     margin-bottom: 0px;
@@ -110,6 +121,7 @@ header img {
     
     display: inline-flex;
     justify-content:flex-start;
+    box-shadow: 0 4px 8px rgb(89 73 30 / 16%);
     
     
 }
@@ -119,6 +131,14 @@ header img {
     height: 90px;
     padding-top: 20px;
     margin: 0 auto;
+}
+
+.driver-fl-bg--white span {
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+    place-self: center;
+    font-family: F1-wide;
 }
 
 .driver-top-podium {
