@@ -129,10 +129,18 @@ header img {
 }
 
 .top-podium-contanier{
+    width: 90%;
+    min-width: 320px;
+    max-width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.top-driver-container{
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 95%;
     justify-content: center;
     
    
