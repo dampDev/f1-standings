@@ -120,32 +120,28 @@ header img {
 
 .top-podium {
     padding-top: 30px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
     width: 100%;
     min-width: 320px;
     height: auto;
-    text-align: center;
+    text-align: center; 
     
 }
 
-.top-podium-slider{
-    display: flex;
+.top-podium-contanier{
+    width: 100%;
     height: auto;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type:x proximity;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
     
    
 }
 .driver-fl-bg--white {
-    scroll-snap-align: center;
+    margin-top: 50px;
     height: 110px;
-    width: 80%;
-    margin: 80px 5px 0 ;
-    max-width: 385px;
+    width: 100%;
+    max-width: 656px;
     background-color: aliceblue;
     margin-bottom: 0px;
     border-radius: 8px 8px 0 0;
@@ -157,6 +153,11 @@ header img {
     
     
 }
+
+.top-2, .top-3 {
+    display: none;
+}
+
 .driver-fl-bg--white .logo-top-scuderia{
 
     width: 50px;
