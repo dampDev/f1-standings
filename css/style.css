@@ -92,15 +92,15 @@ header img {
     height: auto;
     min-width: 320px;
 }
-
-.f1-standing-container {
-
+.f1-standing-container{
+    
     width: 100%;
-    height: auto;
+    height: 150px;
     background-image: url('../assets/imgs/bg@2x.jpg');
-    background-position: center;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    
 
 }
 .f1-standing-title h2 {
@@ -178,8 +178,12 @@ header img {
     font-family: F1-wide;
 }
 
-.driver-fl-bg--white .right {
-   position: relative;
+.driver-top-podium {
+    position: relative;
+ width: 250px;
+ height: 200px;
+ bottom: 90px;
+ right: 40px;
    
 }
 .main-f1-standind--table-container {
